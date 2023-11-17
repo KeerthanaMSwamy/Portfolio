@@ -19,8 +19,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I started exploring the beautiful concepts of programming and development from my Second year of Engineering. 
-              I have mostly learnt all the concepts from YouTube and have been consistent in learning new things always.
+            I've delved into various technologies like web development, Android app development, 
+            cloud tech, and Augmented Reality. With a solid programming foundation and hands-on experience, 
+            I'm eager to contribute to innovative projects in the dynamic world of software development.
               <br />
               <br />I am fluent in classics like
               <i>
