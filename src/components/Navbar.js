@@ -16,6 +16,7 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 
+
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -92,7 +93,8 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+{/* make your bog post and put it here  */}
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
@@ -100,7 +102,7 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
