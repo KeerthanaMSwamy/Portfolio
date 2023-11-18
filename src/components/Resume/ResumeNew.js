@@ -33,12 +33,12 @@ function ResumeNew() {
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={1} scale={width > 600 ? 0.8 : 0.3} />
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}> */}
+          {/* <Button
             variant="primary"
             href={pdf}
             target="_blank"
@@ -46,10 +46,11 @@ function ResumeNew() {
           >
             <AiOutlineDownload />
             &nbsp;Download CV
-          </Button>
-        </Row>
+          </Button> */}
+        {/* </Row> */}
       </Container>
     </div>
+
   );
 }
 
