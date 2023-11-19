@@ -21,8 +21,8 @@ function Certificates() {
           Here are a few Certificates and Badges I have received.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
+          <Col md={4} className="certificate-card">
+            <CertificateCard
               imgPath={chatify} //change the image here 
               isBlog={false}
               title="Personal Portfolio"
@@ -35,8 +35,8 @@ function Certificates() {
 
           {/* change the projects here  */}
           
-          <Col md={4} className="project-card">
-            <ProjectCard
+          <Col md={4} className="certificate-card">
+            <CertificateCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Bits-0f-C0de"
@@ -47,7 +47,7 @@ function Certificates() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <CertificateCard
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
@@ -57,8 +57,8 @@ function Certificates() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
+          <Col md={4} className="certificate-card">
+            <CertificateCard
               imgPath={leaf}
               isBlog={false}
               title="Plant AI"
@@ -68,8 +68,8 @@ function Certificates() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
+          <Col md={4} className="certificate-card">
+            <CertificateCard
               imgPath={suicide}
               isBlog={false}
               title="Ai For Social Good"
@@ -79,8 +79,8 @@ function Certificates() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
+          <Col md={4} className="certificate-card">
+            <CertificateCard
               imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
